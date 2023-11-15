@@ -1,0 +1,32 @@
+.botao {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  padding: 18px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 999px;
+  border: none;
+  box-shadow: 0px 2px 3px 0px rgba(255, 255, 255, 0.1) inset,
+    0px 0px 2px 0px rgba(0, 0, 0, 0.29), 0px 2px 4px 0px rgba(0, 0, 0, 0.26),
+    0px 4px 6px 0px rgba(0, 0, 0, 0.1), 0px 7px 7px 0px rgba(0, 0, 0, 0.04),
+    0px 11px 7px 0px rgba(0, 0, 0, 0.01);
+  transition: transform 0.2s;
+}
+
+.botao:active {
+  transform: scale(0.96);
+  box-shadow: 0px 2px 3px 0px rgba(255, 255, 255, 0.1) inset,
+    0px 0px 2px 0px rgba(0, 0, 0, 0.29);
+}
+
+.texto {
+  text-align: center;
+  font-family: Rubik, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
